@@ -1001,6 +1001,12 @@ $menu-height: 70px;
 			}
 		}
 	}
+	
+	@media screen and (max-width: 480px) {
+   		div.stats .value {
+		       font-size:22px !important;
+		  }
+	}
 
 	.works-container .works {
 		.asection, .csection {
